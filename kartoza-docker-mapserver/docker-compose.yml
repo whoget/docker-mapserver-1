@@ -1,0 +1,6 @@
+mapserver:
+  image: kartoza/mapserver
+  volumes:
+    - /opt/mapserver/map/:/map
+  ports:
+    - "5222:80"
